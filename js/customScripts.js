@@ -28,7 +28,7 @@ $(document).ready(function() {
                 $("#actions").empty();
                 $("#legendaryActions").empty();
                 $("#monsterData").show();
-                $("#guideText").text("Back");
+                $("#guideText").text("Back").css("text-align","left");
                 $("#monsterName").text(parsed_json['name']);
                 $("#strength").text("Strength: " + parsed_json['strength']);
                 $("#dexterity").text("Dexterity: " + parsed_json['dexterity']);
@@ -100,7 +100,7 @@ $(document).ready(function() {
     $("#guideText").click(function(){
         $("#monsters").show();
         $("#monsterData").hide();
-        $("#guideText").text("Select a monster to populate it's data.");
+        $("#guideText").text("Select a monster to view it.").css("text-align","center");
         $("body").css("background", "url(\"img/D&D Transparent.png\") no-repeat fixed center");
     });
 });
