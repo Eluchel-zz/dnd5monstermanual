@@ -1,0 +1,77 @@
+body {
+    max-width: 1200px;
+    display: block;
+    margin: 0 auto;
+    background: url("../img/D&D Transparent.png") no-repeat fixed center;
+}
+
+h1 {
+    margin-top:30px;
+    text-align: center;
+}
+
+.listItem {
+    display: inline-block;
+    width: 16%;
+    text-align: center;
+    padding: 1em 0;
+    margin: 0;
+    cursor: pointer;
+}
+
+.inlineItem {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.row {
+    background-color: #e6f2ff;
+    padding: 5px;
+    border: #FFFFFF solid 1px;
+}
+
+.row:nth-child(2n) {
+    background-color: #cce6ff;
+}
+
+.stats {
+    width:20%;
+}
+
+.info {
+    width:79%;
+}
+
+.divide2 {
+    width:49%;
+}
+
+.divide4 {
+    width:24%;
+}
+
+.button {
+    width: 60px;
+    text-align: center;
+    padding: 5px;
+    margin: 0;
+    margin-top:5px;
+    background-color: #64B200;
+    color: white;
+    cursor: pointer;
+}
+
+li a {
+    color: #444;
+    text-decoration: none;
+}
+
+li a:hover {
+    color: #FECDD4;
+}
+
+.block {
+    width:48%;
+    display: inline-block;
+    vertical-align: top;
+}
